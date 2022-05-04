@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box_grid{
+    width: 305px;
+    height: 280px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1.5px solid gray;
+    box-shadow: 10px 10px #687983;
+   
+}
+.box_color{
+    width: 305px;
+    height: 250px;
+    margin-top: 10em;
+    margin: auto;
+    border: 1.5px solid gray;
+    box-shadow: 10px 10px #687983;
+}
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f5f1f1;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.container{
+    display: flex; 
+    justify-content: center; 
+    height: 100px;
+
+}
+
+.button{
+  background-color: #61c8f1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container-button{
+  background-color: #61c8f1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+     
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: normal;
+  margin-bottom: 4rem;
+  padding-top: 1em;
+  color: #2f2f2f;
+}
+
+input[type="number"] {
+  width: 13rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  margin: 0 0.7rem;
+  text-align: center;
+  font-size: 1.7rem;
+  outline: none;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.color_picker{
+  padding-bottom: 30px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 10em;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
